@@ -1,6 +1,2 @@
 #!/bin/bash
-# in the current directory and parent directory
-ls -al | ls -al ..
-
-#in the /boot directory
-ls -al /bool
+ls -al | ls -al .. |ls -al /bool
