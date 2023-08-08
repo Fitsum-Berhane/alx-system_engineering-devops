@@ -1,3 +1,2 @@
 #!/bin/bash
-echo $((${POWER} / ${DIVIDE}))
-echo "$POWER and $DIVIDE are environmental variables"
+echo $((${POWER} / ${DIVIDE})) \n $POWER and $DIVIDE are environmental variables"
