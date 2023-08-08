@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $((POWER / DIVIDE))$'\n'"$POWER and $DIVIDE are environment variables"
+printf "%s\n\n" $(($POWER / $DIVIDE))
+
